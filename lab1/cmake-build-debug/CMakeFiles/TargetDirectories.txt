@@ -1,0 +1,3 @@
+D:/University/CG/1/cmake-build-debug/CMakeFiles/1.dir
+D:/University/CG/1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/University/CG/1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
