@@ -5,8 +5,6 @@
 
 using namespace std;
 
-#define abc(x) ((x) ? (x) > 0 : -(x))
-
 struct Point
 {
 	int x, y;
