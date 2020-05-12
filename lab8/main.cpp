@@ -109,14 +109,6 @@ int main()
 				if (bucket_top_i[part][bucket] == -1 || p.y > in[bucket_top_i[part][bucket]].y)
 					bucket_top_i[part][bucket] = i;
 			}
-//		cout << part << endl;
-//		cout << start_p << endl;
-//		for (auto i: bucket_top_i[part])
-//			if(i!=-1)
-//				cout << in[i] << endl;
-//			else
-//				cout << i << endl;
-//		cout << endl;
 		hull[part] = andrew(start[part], bucket_top_i[part], in);
 	}
 	for (int part = 0; part <= 1; ++part)
