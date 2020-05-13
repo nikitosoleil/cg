@@ -33,9 +33,9 @@ void f(Point l, Point r, const vector < Point > &candidates, vector < Point > &c
 	if (!actual_candidates.empty())
 	{
 		Point chosen = actual_candidates[best];
-		convex_hull.push_back(chosen);
 		actual_candidates.erase(actual_candidates.begin() + best);
 		f(l, chosen, actual_candidates, convex_hull);
+		convex_hull.push_back(chosen);
 		f(chosen, r, actual_candidates, convex_hull);
 	}
 }
